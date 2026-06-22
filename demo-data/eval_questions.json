@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is OWASP A01 Broken Access Control (Q1)?",
+    "ground_truth": "Enforce least privilege and deny by default."
+  },
+  {
+    "question": "What is OWASP A02 Cryptographic Failures (Q2)?",
+    "ground_truth": "Use strong algorithms and protect keys at rest and in transit."
+  },
+  {
+    "question": "What is OWASP A03 Injection (Q3)?",
+    "ground_truth": "Use parameterized queries and input validation."
+  },
+  {
+    "question": "What is OWASP A04 Insecure Design (Q4)?",
+    "ground_truth": "Threat model and secure design patterns in SDLC."
+  },
+  {
+    "question": "What is OWASP A05 Security Misconfiguration (Q5)?",
+    "ground_truth": "Harden defaults and automate config review."
+  },
+  {
+    "question": "What is OWASP A06 Vulnerable Components (Q6)?",
+    "ground_truth": "Maintain SBOM and patch dependencies."
+  },
+  {
+    "question": "What is OWASP A07 Auth Failures (Q7)?",
+    "ground_truth": "MFA, secure session management, credential stuffing defenses."
+  },
+  {
+    "question": "What is OWASP A08 Data Integrity (Q8)?",
+    "ground_truth": "Verify software supply chain and CI/CD integrity."
+  },
+  {
+    "question": "What is OWASP A09 Logging Failures (Q9)?",
+    "ground_truth": "Centralize logs and protect audit trails."
+  },
+  {
+    "question": "What is OWASP A10 SSRF (Q10)?",
+    "ground_truth": "Validate and sandbox outbound requests."
+  },
+  {
+    "question": "What is OWASP A01 Broken Access Control (Q11)?",
+    "ground_truth": "Enforce least privilege and deny by default."
+  },
+  {
+    "question": "What is OWASP A02 Cryptographic Failures (Q12)?",
+    "ground_truth": "Use strong algorithms and protect keys at rest and in transit."
+  },
+  {
+    "question": "What is OWASP A03 Injection (Q13)?",
+    "ground_truth": "Use parameterized queries and input validation."
+  },
+  {
+    "question": "What is OWASP A04 Insecure Design (Q14)?",
+    "ground_truth": "Threat model and secure design patterns in SDLC."
+  },
+  {
+    "question": "What is OWASP A05 Security Misconfiguration (Q15)?",
+    "ground_truth": "Harden defaults and automate config review."
+  },
+  {
+    "question": "What is OWASP A06 Vulnerable Components (Q16)?",
+    "ground_truth": "Maintain SBOM and patch dependencies."
+  },
+  {
+    "question": "What is OWASP A07 Auth Failures (Q17)?",
+    "ground_truth": "MFA, secure session management, credential stuffing defenses."
+  },
+  {
+    "question": "What is OWASP A08 Data Integrity (Q18)?",
+    "ground_truth": "Verify software supply chain and CI/CD integrity."
+  },
+  {
+    "question": "What is OWASP A09 Logging Failures (Q19)?",
+    "ground_truth": "Centralize logs and protect audit trails."
+  },
+  {
+    "question": "What is OWASP A10 SSRF (Q20)?",
+    "ground_truth": "Validate and sandbox outbound requests."
+  },
+  {
+    "question": "What is OWASP A01 Broken Access Control (Q21)?",
+    "ground_truth": "Enforce least privilege and deny by default."
+  },
+  {
+    "question": "What is OWASP A02 Cryptographic Failures (Q22)?",
+    "ground_truth": "Use strong algorithms and protect keys at rest and in transit."
+  },
+  {
+    "question": "What is OWASP A03 Injection (Q23)?",
+    "ground_truth": "Use parameterized queries and input validation."
+  },
+  {
+    "question": "What is OWASP A04 Insecure Design (Q24)?",
+    "ground_truth": "Threat model and secure design patterns in SDLC."
+  },
+  {
+    "question": "What is OWASP A05 Security Misconfiguration (Q25)?",
+    "ground_truth": "Harden defaults and automate config review."
+  }
+]

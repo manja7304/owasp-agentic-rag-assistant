@@ -1,0 +1,52 @@
+[
+  {
+    "id": "owasp-1",
+    "title": "A01 Broken Access Control",
+    "content": "Enforce least privilege and deny by default."
+  },
+  {
+    "id": "owasp-2",
+    "title": "A02 Cryptographic Failures",
+    "content": "Use strong algorithms and protect keys at rest and in transit."
+  },
+  {
+    "id": "owasp-3",
+    "title": "A03 Injection",
+    "content": "Use parameterized queries and input validation."
+  },
+  {
+    "id": "owasp-4",
+    "title": "A04 Insecure Design",
+    "content": "Threat model and secure design patterns in SDLC."
+  },
+  {
+    "id": "owasp-5",
+    "title": "A05 Security Misconfiguration",
+    "content": "Harden defaults and automate config review."
+  },
+  {
+    "id": "owasp-6",
+    "title": "A06 Vulnerable Components",
+    "content": "Maintain SBOM and patch dependencies."
+  },
+  {
+    "id": "owasp-7",
+    "title": "A07 Auth Failures",
+    "content": "MFA, secure session management, credential stuffing defenses."
+  },
+  {
+    "id": "owasp-8",
+    "title": "A08 Data Integrity",
+    "content": "Verify software supply chain and CI/CD integrity."
+  },
+  {
+    "id": "owasp-9",
+    "title": "A09 Logging Failures",
+    "content": "Centralize logs and protect audit trails."
+  },
+  {
+    "id": "owasp-10",
+    "title": "A10 SSRF",
+    "content": "Validate and sandbox outbound requests."
+  }
+]
