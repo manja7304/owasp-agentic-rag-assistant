@@ -164,9 +164,24 @@ python scripts/run_eval.py
 
 ## Video Demo
 
-[![Demo Video](https://img.shields.io/badge/Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=PLACEHOLDER)
+- **Walkthrough:** [`demos/WALKTHROUGH.md`](demos/WALKTHROUGH.md) — step-by-step demo with captured live output
+- **Captured JSON:** [`demos/captured/response.json`](demos/captured/response.json)
+- Record your 2-min Loom using `python scripts/run_demo.py` (works offline with `USE_MOCK_LLM=true`)
 
-> Record using [`demos/RECORDING_SCRIPT.md`](demos/RECORDING_SCRIPT.md) — show eval run + trace.
+### Live Demo Output
+
+```json
+{
+  "answer": "**A05 Security Misconfiguration**: Harden defaults and automate config review.",
+  "trace_count": 4,
+  "trace_first": {
+    "step": "rewrite",
+    "query": "OWASP A03 injection SQL XSS prevention"
+  }
+}
+```
+
+> Full trace and request payloads in [`demos/captured/`](demos/captured/). See [`demos/RECORDING_SCRIPT.md`](demos/RECORDING_SCRIPT.md) for narration cues.
 
 ---
 

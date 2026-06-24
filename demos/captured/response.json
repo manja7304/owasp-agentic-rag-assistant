@@ -1,0 +1,24 @@
+{
+  "answer": "**A05 Security Misconfiguration**: Harden defaults and automate config review.",
+  "trace": [
+    {
+      "step": "rewrite",
+      "query": "OWASP A03 injection SQL XSS prevention"
+    },
+    {
+      "step": "retrieve",
+      "count": 3
+    },
+    {
+      "step": "grade",
+      "passed": false
+    },
+    {
+      "step": "self_correct",
+      "count": 5
+    }
+  ],
+  "metadata": {
+    "rewritten": "OWASP A03 injection SQL XSS prevention"
+  }
+}

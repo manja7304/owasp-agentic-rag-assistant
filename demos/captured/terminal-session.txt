@@ -1,0 +1,39 @@
+# Terminal replay — OWASP Agentic RAG Assistant
+# Captured: 2026-06-24 17:41:53 UTC · USE_MOCK_LLM=true
+
+$ cd owasp-agentic-rag-assistant
+$ export USE_MOCK_LLM=true LLM_PROVIDER=mock
+$ python scripts/run_demo.py
+
+▸ Agent API demo
+  POST /api/v1/agent/run
+Request:
+{
+  "query": "How to prevent SQL injection in APIs?"
+}
+
+HTTP 200
+{
+  "answer": "**A05 Security Misconfiguration**: Harden defaults and automate config review.",
+  "trace": [
+    {
+      "step": "rewrite",
+      "query": "OWASP A03 injection SQL XSS prevention"
+    },
+    {
+      "step": "retrieve",
+      "count": 3
+    },
+    {
+      "step": "grade",
+      "passed": false
+    },
+    {
+      "step": "self_correct",
+      "count": 5
+    }
+  ],
+  "metadata": {
+    "rewritten": "OWASP A03 injection SQL XSS prevention"
+  }
+}
